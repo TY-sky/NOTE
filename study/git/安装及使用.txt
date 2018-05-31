@@ -1,0 +1,7 @@
+
+2018-5-31
+1.git官网下载GIT
+2.创建GITHUB账号 986
+3.下载并安装github desktop
+4.从github clone项目到电脑。
+5.电脑编辑各个文件夹并推送到云端。
