@@ -1,0 +1,4 @@
+安装MATLAB
+创建桌面快捷方式，在属性的目标里输入
+D:\MATLAB\R2018a\bin\matlab.exe -c D:\MATLAB\R2018a\licenses\license_standalone.lic
+加快MATLAB 就绪的时间。
