@@ -1,0 +1,55 @@
+bbs.fishc.com     上论坛学习
+
+虚拟器
+linux 操作系统
+修改联网设置
+安装 GCC
+安装 图形界面
+
+This system is currently not set up to build kernel modules.
+Please install the gcc make perl packages from your distribution.
+Please install the Linux kernel "header" files matching the current kernel foradding new hardware support to the system.
+The distribution packages containing the headers are probably:
+	kernel-devel kernel-devel-2.6.32-696.el6.i686
+	
+解决此问题 
+yum -y install kernel-devel-2.6.32-696.el6.i686
+
+
+
+字符串处理函数。
+字符串很重要。
+带你c论坛 标准函数库分类
+string.h
+strlen  获取字符串长度
+    与sizeof的区别是 没有\0;
+
+strcpy 与 strncpy
+	strcpy 全拷贝
+	strncpy 指定长度   需加\0;
+
+strcat 与 strncat
+	连接与指定长度连接
+
+strcmp 与 strncmp 
+	比较两个字符串
+	
+	
+开始学习指针
+指针和指针变量   
+指针  地址
+指针变量  存放指针的变量
+*  在定义的时候表示定义指针 
+   在访问的时候表示取值
+ 
+取值运算符 &间接运算符
+
+避免使用未初始化的指针
+野指针
+定义指针时，地址是随机的，将一个值赋值到一个随机地址，如果地址是关键地址，就会造成异常
+
+数组绝不是指针。
+数组名就是地址，也是第一个元素的地址
+
+p+1 不是简单的将地址加1，而是指向下一个元素
+fishc 第二十一课。
