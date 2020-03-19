@@ -1,0 +1,69 @@
+2月22日
+安装PYTHON
+2月23日
+1、CMD进入命令行，PYTHON调用Cpython解释器 EXIT或者CTRL+Z退出解释器
+2、编写HELLO文件	要直接运行，而不是命令行下运行。
+3、print输出 input输入
+4、#开头是注释
+5、冒号 ：结尾第二行缩进四个空格
+2月24日
+1、数据类型 整数 浮点数 字符串 (字符串 ''  ""都能表示文本 
+	\是转义字符 
+	'''... '''表示换行  交互模式    文本模式只需要 ''' '''
+	占位符	替换内容
+%d	整数
+%f	浮点数
+%s	字符串
+%x	十六进制整数
+
+2、布尔值    True False 注意大小写
+3、空值    	None
+4、常量   通常是全部大写  例如 PI
+5、除法 /正常除法  //地板除 只剩整数部分 % 取余
+6、字符编码 ASCII    1个字节    unicode  2个字节或者四个字节     UTF-8  英文 1个字节  汉字 3个字节 生僻字 4~6个字节 
+	ord('中')      20013    获取字符的整数表示   
+	chr(20013)  '中'     将整数表示还原成字符
+	'\u4e2d'      '中'    \u字符的编码表示  unicode
+	'ABC'.encode('ascii')    b'ABC'        以Unicode表示的str通过encode()方法可以编码为指定的bytes
+	b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')      '中文'   把bytes变为str，用decode()
+	len()函数计算的是str的字符数 如果换成bytes，len()函数就计算字节数
+7、list       列表  索引从0开始 禁止越界
+	append 增加到末尾  
+	insert 插入到指定位置
+	pop  删除末尾
+	pop（i）删除指定位置
+	用索引 直接替换
+	list里可以嵌套 list
+8、tuple   元组   list的不允许变的版本    用括号表示  一个的时候加逗号，(1,)   指向不变。
+
+2月25日
+https://www.pdflibr.com    电话号码网站
+
+1、dict 字典
+	d = {'michael':95,'bob':75,'tracy':85}
+	KEY不能错 用 in验证 key是否存在
+	pop 删除
+	dict的key必须是不可变对象
+2、set 不存值的字典
+	add 添加
+	remove移除
+3、>>> a = ['c', 'b', 'a']
+	>>> a.sort()
+	>>> a
+	['a', 'b', 'c']        sort 排序
+4、函数  def 定义函数 
+
+3月2日
+1、可变参数
+	原本传入的是一个LIST 或者TUPLE 变成传入一个可变参数 
+	方法， 定义函数时将原本的的参数加* 可以传入直接的值而不用LIST或者tuple 
+	传tuple或者list时加*
+	可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。
+2、关键字参数
+
+3月4日
+1、非常关键 LIST中 调用的append 函数，会默认将所在内存的值直接改变，所有同样内存的值会同时变化，使用时千万注意。见例子中的 杨辉三角。
+
+3月19日
+安装 anconda 注意事项。激活需要配置VSCODE 取消自动激活 conda init shell  activate 
+		

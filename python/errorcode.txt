@@ -1,0 +1,4 @@
+expected an indented block 缩进错误  
+invalid syntax        语法错误
+unexpected EOF while parsing    少括号
+inconsistent use of tabs and spaces in indentation     空格异常 每行的空格都看一下

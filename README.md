@@ -1,2 +1,0 @@
-# NOTE
-DAYLY_NOTE
